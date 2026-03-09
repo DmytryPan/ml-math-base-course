@@ -1,0 +1,13 @@
+student_or_team,seed,dataset_name,dataset_params,sweep_param,sweep_value,leakage_type,bad_cv_rmse,good_cv_rmse,optimism_pct
+Panikhidin D.B.,2026,Dataset A,"{""n_samples: "": 120, ""n_features"": 300, ""random_state:"": 2026}",n_features,300,scaler,162.5679896143497,162.69640579999958,0.07892994625077514
+Panikhidin D.B.,2026,Dataset A,"{""n_samples: "": 120, ""n_features"": 300, ""random_state:"": 2026}",n_features,300,select_percentile,34.570991129133986,83.55475226156014,58.62474581827157
+Panikhidin D.B.,2026,Dataset A,"{""n_samples: "": 120, ""n_features"": 1000, ""random_state:"": 2026}",n_features,1000,scaler,132.15204057122642,132.3870917164493,0.17754838645924986
+Panikhidin D.B.,2026,Dataset A,"{""n_samples: "": 120, ""n_features"": 1000, ""random_state:"": 2026}",n_features,1000,select_percentile,30.475636288413206,79.8215816419158,61.82030515866165
+Panikhidin D.B.,2026,Dataset A,"{""n_samples: "": 120, ""n_features"": 3000, ""random_state:"": 2026}",n_features,3000,scaler,166.17951357788598,166.38971721860756,0.12633211008190004
+Panikhidin D.B.,2026,Dataset A,"{""n_samples: "": 120, ""n_features"": 3000, ""random_state:"": 2026}",n_features,3000,select_percentile,59.21389083179885,143.0284918631336,58.59993343951244
+Panikhidin D.B.,2026,Dataset B,"{""n_samples: "": 120, ""n_features"": 300, ""effective_rank"": 5, ""random_state:"": 2026}",effective_rank,5,scaler,1.214803260682923,1.219446498774058,0.3807660357221865
+Panikhidin D.B.,2026,Dataset B,"{""n_samples: "": 120, ""n_features"": 300, ""effective_rank"": 5, ""random_state:"": 2026}",effective_rank,5,select_percentile,1.9556289061830554,1.9760654019790251,1.0342013870341857
+Panikhidin D.B.,2026,Dataset B,"{""n_samples: "": 120, ""n_features"": 300, ""effective_rank"": 10, ""random_state:"": 2026}",effective_rank,10,scaler,2.5951607957728897,2.602405958031592,0.2784024620118183
+Panikhidin D.B.,2026,Dataset B,"{""n_samples: "": 120, ""n_features"": 300, ""effective_rank"": 10, ""random_state:"": 2026}",effective_rank,10,select_percentile,2.891014293828681,2.948142817570858,1.937780062814197
+Panikhidin D.B.,2026,Dataset B,"{""n_samples: "": 120, ""n_features"": 300, ""effective_rank"": 20, ""random_state:"": 2026}",effective_rank,20,scaler,3.7568926494353407,3.76522552749843,0.22131152575674257
+Panikhidin D.B.,2026,Dataset B,"{""n_samples: "": 120, ""n_features"": 300, ""effective_rank"": 20, ""random_state:"": 2026}",effective_rank,20,select_percentile,3.8651848849232358,4.004228866908539,3.4724284402018233
